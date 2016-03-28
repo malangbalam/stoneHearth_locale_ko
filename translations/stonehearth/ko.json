@@ -32,7 +32,7 @@
             "flee": "fleeing",
             "panic": "panicking",
             "mine": "mining",
-            "sleep_in_bed": "sleeping",
+            "sleep_in_bed": "자는 중",
             "sleep_on_ground": "sleeping on the ground",
             "check_bait_trap": "checking traps",
             "set_bait_trap": "setting traps",
@@ -1113,10 +1113,10 @@
          "post_bug": {
             "title": "Filing bugs",
             "message": "Thanks for participating in the Stonehearth Alpha! Here's how you can file a bug.",
-            "file_bug_step_1": "Go to http://discourse.stonehearth.net/c/support/bug-reports",
+            "file_bug_step_1": "Go to http:&frasl;&frasl;discourse.stonehearth.net&frasl;c&frasl;support&frasl;bug-reports",
             "file_bug_step_2": "Check the list of active topics, and if your bug hasn't already been reported, create a new topic",
             "file_bug_step_3": "When filing bugs, please be sure to include all the information requested in the report, and copy the text of all engine errors. Screenshots for visual bugs are also helpful.",
-            "file_bug_step_4": "If you're encountering a crashing bug, please check out http://discourse.stonehearth.net/t/13297 for common solutions, and how to get support for crashes. Below is your unique user id:"
+            "file_bug_step_4": "If you're encountering a crashing bug, please check out http:&frasl;&frasl;discourse.stonehearth.net&frasl;t&frasl;13297 for common solutions, and how to get support for crashes. Below is your unique user id:"
          },
          "error_browser": {
             "title": "Engine Error",
@@ -6618,7 +6618,7 @@
             },
             "level_3_data": {
                "perk_000_name": "Artistic Inspiration",
-               "perk_000_description": "When inspiration strikes, the potter may embellish his/her works in unexpected ways."
+               "perk_000_description": "When inspiration strikes, the potter may embellish his&frasl;her works in unexpected ways."
             },
             "level_6_data": {
                "title": "Master Potter",
