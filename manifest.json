@@ -8,10 +8,10 @@
       "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
    },
    "overrides": {	  
-	  "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/YanoljaYacheB.ttf)",
-   	  "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/YanoljaYacheB.woff)",
-   	  "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/YanoljaYacheB.ttf)",
-   	  "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/YanoljaYacheB.woff)",
+	  "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/BMJUA.ttf)",
+   	  "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/BMJUA.woff)",
+   	  "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/BMJUA.ttf)",
+   	  "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/BMJUA.woff)",
 	  
 	  "stonehearth/ui/shell/title/title.html": "file(ui/shell/html/title.html)",
 	  "stonehearth/ui/shell/select_game_story/select_game_story.html": "file(ui/shell/html/select_game_story.html)",
