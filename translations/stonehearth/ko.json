@@ -32,7 +32,7 @@
             "flee": "도망치는 중",
             "panic": "공황 상태",
             "mine": "채광 중",
-            "sleep_in_bed": "sleeping",
+            "sleep_in_bed": "수면 중",
             "sleep_on_ground": "바닥에서 자는 중",
             "check_bait_trap": "덫 점검 중",
             "set_bait_trap": "덫 설치 중",
@@ -45,12 +45,12 @@
             "drop_item_near_workshop": "작업대 철거 중",
             "fabricate_structure": "건설 중",
             "teardown_structure": "tearing down structures",
-            "feed_pasture_animals": "feeding animals",
-            "restock": "restocking items",
+            "feed_pasture_animals": "먹이 주는 중",
+            "restock": "물품 돌려놓는 중",
             "resting_from_injuries": "requiring medical attention",
             "healing": "treating wounds",
-            "healing_target": "healing [name(data.target)]",
-            "dig_foundation": "digging foundation"
+            "healing_target": "[name(data.target)]을 치료하는 중",
+            "dig_foundation": "부지 공사 중"
          }
       }
    },
