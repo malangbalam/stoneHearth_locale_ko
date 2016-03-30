@@ -823,7 +823,7 @@
             "craftable_locked": "Unlocked at Level: [str(level)]",
             "workshop_requirement_title": "작업장",
             "workshop_none_required": "제작 가능!",
-            "workshop_required": "설치해야함",
+            "workshop_required": "설치 핋요: ",
             "level_requirement_title": "요구 레벨",
             "level_requirement_none": "제작 가능!",
             "level_requirement_needed": "[MKY_KEY_1]",

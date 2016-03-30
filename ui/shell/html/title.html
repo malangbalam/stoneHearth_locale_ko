@@ -1,22 +1,19 @@
 <script type="text/x-handlebars" data-template-name="stonehearthTitleScreen">
    <div id="radiant">
    </div>
-   <div id="titlescreen" class="dev_build">
+   <div id="titlescreen" class="__dev_build">
       
       <div id="menubar">
          <a href="#" {{action 'exit' target="view"}}>{{i18n stonehearth:ui.shell.title_screen.exit}}</a>
          <a href="#" {{action 'openModal' 'settings'}}>{{i18n stonehearth:ui.shell.title_screen.settings}}</a>
-         <!--
-         <a href="#">{{i18n stonehearth:ui.shell.title_screen.credits}}</a>
-         -->
-         
+         <a href="#" {{action 'openModal' 'about'}}>{{i18n stonehearth:ui.shell.title_screen.about}}</a>
       </div>
       <img id="logo">
       <div id="controls">
          <div id="continue">
             <div class="gameInfo">
-               <div class="nameHeder">최근 플레이한 게임:</div>
-               <div class="name">{{view.lastSave.gameinfo.town_name}} {{i18n stonehearth:ui.shell.title_screen.kingdom_of}}</div>
+               <div class="nameHeader">{{i18n stonehearth:ui.shell.title_screen.kingdom_of}}</div>
+               <div class="name">{{view.lastSave.gameinfo.town_name}}</div>
                <div class="gameTime">{{i18n_key "stonehearth:ui.game.calendar.date_time_long_format" date=view.lastSave.gameinfo.game_date}}</div>
                {{#if view.lastSave.gameinfo.differentVersions}}
                   <div class="differentVersionText">{{i18n stonehearth:ui.game.save_view.game_different_version}}</div>
