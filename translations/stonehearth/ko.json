@@ -832,7 +832,7 @@
             "requirements_unmet_general": "요구사항이 충족되지 않음!",
             "queue_anyway": "작업 대기",
             "recipe_tab": "제작법",
-            "orders_tab": "Orders",
+            "orders_tab": "제작 중",
             "missing_ingredients": "Missing ingredients: "
          },
          "town_overview": {
