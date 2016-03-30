@@ -8,9 +8,9 @@
 
    #buffs {
       position: absolute;
-      top: -32px;
-      left: 154px;
-      width: 300px;
+      bottom: 100px;
+      left: 0px;
+      width: 250px;
 
       .item {
          float: left;
@@ -30,13 +30,14 @@
       position: absolute;
       left: 0px;
       bottom: 0px;
+      z-index: 4;
       height: 62px;
       background: #322f28;
       border-width: 8px 8px 8px 8px;
       border-image: url(images/bg_border.png) 8 8 8 8 repeat;
       width: 550px;
 
-      font-size: 35px;
+      font-size: 30px;
       //line-height: 26px;
       text-align: left;
 
@@ -53,6 +54,8 @@
             margin-right: -20px;
             width: 128px;
             height: 128px;
+            background-size: 128px, 128px;
+            background-repeat: no-repeat;
          }
 
          #portrait.clickable{
@@ -88,7 +91,7 @@
             text-overflow: ellipsis;
             .button;
             white-space: nowrap;
-            font-size: 32px;
+            font-size: 27px;
             padding-left: 2px;
             padding-right: 2px;
          }
@@ -96,7 +99,7 @@
          .description {
             padding-top: 4px;
             padding-left: 2px;
-            font-size: 21px;
+            font-size: 16px;
             color: #a8935d;
          }
       }
@@ -107,6 +110,7 @@
       position: absolute;
       top: 0px;
       right: 8px;
+      z-index: 5;
 
       .commandButton {
          position: relative;
@@ -155,7 +159,7 @@
 
          div {
             position: absolute;
-            font-size: 21px;
+            font-size: 16px;
             bottom: 0px;
             width: 69px;
          }
@@ -164,5 +168,78 @@
             color: #ff0000;
          }
       }
+   }
+
+
+   #combatControls {
+      position: absolute;
+
+      right: -567px;
+      bottom: 80px;
+      z-index: 3;
+
+      width: 373px;
+      height: 64px; 
+
+      background-image: url('./images/combat_base.png'); 
+      background-repeat: no-repeat;
+
+      display: none;
+
+      //display: none;
+
+         #combatButtonDiv {
+            height: 10px;
+            margin-right: 38px;
+         }
+
+         #partyButton {
+            position: absolute;
+            left: 30px;
+            bottom: 10px;
+            display: none;
+            width: 64px;
+            height: 79px;
+            background-repeat: no-repeat;
+         }
+
+         .combatButton {
+            width: 59px;
+            height: 54px;
+            background-image: url('./images/combat_buttons.png'); 
+            background-repeat: no-repeat;
+            float: right;
+            margin-left: 3px;
+            margin-top: -7px;
+
+            a {
+               width: 59px;
+               height: 54px;
+               display: block;
+               background-position: 50% 40%;
+               background-repeat: no-repeat;
+            }
+
+            #moveToLocation {
+               background-image: url('./images/move_to_icon.png'); 
+            }
+            #attackLocationOrEntity {
+               background-image: url('./images/attack_entity_or_place.png'); 
+            }
+            #defendLocation {
+               background-image: url('./images/defend_location.png'); 
+            }
+
+            #cancelOrders {
+               width: 47px;
+               background-image: url('./images/cancel_order.png'); 
+            }
+         }
+
+         #cancelCombatButton {
+            width: 47px;
+            background-image: url('./images/combat_button_narrow.png'); 
+         }
+         
    }
 }
