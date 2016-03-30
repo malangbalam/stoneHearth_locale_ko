@@ -1,7 +1,7 @@
 {
    "info" : {
       "name" : "Adding languages for Korean(한국어 추가 모드)", 
-      "version" : 150303
+      "version" : 150304
    },
    "default_locale": "ko",
    "mixintos" : {
