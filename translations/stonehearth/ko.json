@@ -223,7 +223,7 @@
                "description": "Add and remove combat units from the party."
             },
             "cancel_order": {
-               "display_name": "Cancel Combat Order",
+               "display_name": "전투 명령 취소",
                "description": "Cancels active combat orders."
             }
          },
@@ -1162,7 +1162,7 @@
                }
             },
             "food": {
-               "display_name": "Food",
+               "display_name": "음식",
                "description": "Make sure foods of different variety and quality are available. Cooked foods are more liked than raw foods.",
                "town_description": "How your citizens feel about the town's food situation. Is there enough to eat? Try to obtain a variety of foods!"
             },
@@ -1174,7 +1174,7 @@
                }
             },
             "willpower": {
-               "display_name": "Willpower",
+               "display_name": "야생화",
                "description": "How likely this hearthling is to resist enemy charms.",
                "bullet_points": {
                   "000": "Determines health regeneration"
