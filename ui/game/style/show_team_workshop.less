@@ -37,13 +37,13 @@
 
       #title {
          color: @controlFontColor;
-         font-size: 37px;
+         font-size: 32px;
          padding-left: 40px;
          padding-top: 26px;
       }
 
       #subtitle {
-         font-size: 21px;
+         font-size: 16px;
          color: @controlLightFontColor;
          display: block;
          height: 20px;
@@ -78,7 +78,7 @@
          right: 0px;
          display: table-cell;
          text-align: center;
-         font-size:35px;
+         font-size:30px;
       }
 
       &:hover {
@@ -178,7 +178,7 @@
 
          h3 {
             color: #d2ac5a;
-            font-size: 21px;
+            font-size: 16px;
             margin: 10px 0 0 0;
          }
 
@@ -190,7 +190,6 @@
             margin-right: 4px;
             margin-bottom: 4px;
             background-position: 0px -930px;
-            -webkit-filter: grayscale(75%); 
             display: flex;
 
             &:hover {
@@ -202,6 +201,14 @@
                height: auto;
                margin: auto;
             }
+         }
+
+         .item.is-locked {
+            -webkit-filter: grayscale(75%);
+         }
+
+         .item.is-hidden {
+            display: none;
          }
       }
 
@@ -262,7 +269,7 @@
       .requirementText {
          .outlined;
          width: 340px;
-         font-size: 20px;
+         font-size: 15px;
       }
 
       .requirementsUnmet {
@@ -286,7 +293,7 @@
       border: none;
 
       h1 {
-         font-size: 35px !important;
+         font-size: 30px !important;
          line-height: 30px;
          color: rgba(0,0,0,0.8);
          padding: 0px 25px;
@@ -294,7 +301,7 @@
 
       h2 {
          .noOutline;
-         font-size: 27px;
+         font-size: 22px;
          color: rgba(0,0,0,0.8);
          padding: 0px;
          margin: 0px;
@@ -324,7 +331,7 @@
          width: 64px;
          height: 66px;
          color: #fff;
-         font-size: 29px;
+         font-size: 24px;
          line-height: 16px;
          display: none;
          align-items: center;
@@ -335,7 +342,7 @@
          }
 
          .name {
-            font-size: 17px;
+            font-size: 12px;
             line-height: 12px;
          }
       }
@@ -390,7 +397,7 @@
             bottom: 30px;
             left: 0px;
             right: 0px;
-            font-size: 19px;
+            font-size: 14px;
             text-align: center;
             font-style: italic;
          }
@@ -428,7 +435,7 @@
       color: red;
       text-align: center;
       display: none;
-      font-size: 29px;
+      font-size: 24px;
 
       .queueAnyway {
          width: 100%;
@@ -473,7 +480,7 @@
       #maintainDisabledId {
          margin-left: 8px;
          margin-top: 5px;
-         font-size : 17px;
+         font-size : 12px;
          line-height : 20px;
          max-width: 220px;
       }
@@ -496,22 +503,25 @@
       
       #craftButton {
          display: flex;
-         /*
-         position: absolute;
-         right: 0px;
-         top: -4px;
-
-         img {
-            content: url('./images/anvil.png');   
+         #craftButtonImage {
+            position:absolute;
+            z-index: 0;
+            width: 100%;
+            height: 100%
          }
-         */
+
          #craftButtonLabel {
+            z-index: 1;
             .controlFont;
             margin: auto;
+            text-align: center;
             display: none;
          }
+
+         #craftButtonLabel.disabled{
+            color: red;
+         }
       }
-          
    }
 }
 
@@ -561,7 +571,8 @@
       }
 
       .amountLabel {
-         font-size: 15px;
+         .handCursor;
+         font-size: 10px;
          position: absolute;
          text-align: right;
          right: 6px;
@@ -571,10 +582,9 @@
       }
 
       .issueIcon {
+         .handCursor;
          position: absolute;
-         display: block;
-         visible: false;
-         opacity: 0;
+         display: none;
          width: 15px;
          height: 16px;
          right: 5px;
@@ -588,7 +598,7 @@
          left: 10px;
          display: none;
          color: red;
-         font-size: 17px;
+         font-size: 12px;
       }
 
       .showDelete {
@@ -749,7 +759,7 @@
          .deleteText {
             float: left;
             color: #ff0000;
-            font-size: 23px;
+            font-size: 18px;
 
             visibility: hidden;
             opacity:0;

@@ -32,7 +32,7 @@
 	  "stonehearth/ui/game/character_sheets/pet_character_sheet/pet_character_sheet.less": "file(ui/game/style/pet_character_sheet.less)",
 	  "stonehearth/ui/game/citizens/citizens.less": "file(ui/game/style/citizens.less)",
 	  "stonehearth/ui/game/bulletin/bulletin_list/bulletin_list.less": "file(ui/game/style/bulletin_list.less)",
-	  "stonehearth/ui/game/bulletin/bulletin_notification/bulletin_notification.less": "file(ui/game/style/bulletin_notification.less)",
+	  "stonehearth/ui/game/bulletin/bulletin_notification/base_notification.less": "file(ui/game/style/base_notification.less)",
 	  "stonehearth/ui/game/bulletin/bulletin_dialog/dialog_tree_bulletin_dialog.less": "file(ui/game/style/dialog_tree_bulletin_dialog.less)",
 	  "stonehearth/ui/game/bulletin/bulletin_dialog/collection_quest_bulletin_dialog.less": "file(ui/game/style/collection_quest_bulletin_dialog.less)",
 	  "stonehearth/ui/game/bulletin/bulletin_dialog/generic_bulletin_dialog.less": "file(ui/game/style/generic_bulletin_dialog.less)",
