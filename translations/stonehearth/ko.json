@@ -3704,53 +3704,53 @@
             }
          },
          "carrot_crop": {
-            "display_name": "당근",
+            "display_name": "Carrot",
             "description": "Fast-growing, but pretty bland on its own.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 당근",
-                  "description": "맛있어!"
+                  "name": "Ripe Carrot",
+                  "description": "Delicious!"
                },
                "002": {
-                  "name": "작은 당근",
-                  "description": "작고. 써."
+                  "name": "Baby Carrot",
+                  "description": "Small. Bitter."
                },
                "001": {
-                  "name": "싹이 튼 당근",
+                  "name": "Carrot Sprout",
                   "description": "Not edible yet!"
                },
                "000": {
-                  "name": "당근 모종",
+                  "name": "Carrot Seedling",
                   "description": "A unrealized carrot."
                },
                "011": {
-                  "name": "썩은 당근",
+                  "name": "Rotten Carrot",
                   "description": "Moldy and disgusting."
                }
             }
          },
          "corn_crop": {
-            "display_name": "옥수수",
+            "display_name": "Corn",
             "description": "Slow-growing, but super nutritious crop.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 옥수수",
-                  "description": "먹어줘! 날 먹어줘!"
+                  "name": "Ripe Corn",
+                  "description": "Eat me! Eat Me!"
                },
                "002": {
-                  "name": "초록빛 옥수수",
+                  "name": "Green Corn",
                   "description": "Extremely unsatisfying to eat."
                },
                "001": {
-                  "name": "싹이 튼 옥수수",
+                  "name": "Corn Sprout",
                   "description": "Not edible yet!"
                },
                "000": {
-                  "name": "옥수수 모종",
+                  "name": "Corn Seedling",
                   "description": "Slow-mo, high-stakes gambling."
                },
                "011": {
-                  "name": "옥수수 껍질",
+                  "name": "Corn Husk",
                   "description": "It's dead."
                }
             }
@@ -3778,53 +3778,53 @@
             }
          },
          "gingercap_crop": {
-            "display_name": "순무",
+            "display_name": "Turnip",
             "description": "Fast-growing staple crop, but not particularly nutritious nor delicious.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 순무",
-                  "description": "맛있어!"
+                  "name": "Ripe Turnip",
+                  "description": "Delicious!"
                },
                "002": {
-                  "name": "작은 당근",
-                  "description": "작고 써."
+                  "name": "Baby Turnip",
+                  "description": "Small. Bitter."
                },
                "001": {
-                  "name": "싹이 튼 순무",
+                  "name": "Turnip Sprout",
                   "description": "Not edible yet!"
                },
                "000": {
-                  "name": "순무 모종",
+                  "name": "Turnip Seedling",
                   "description": "A unrealized turnip."
                },
                "011": {
-                  "name": "썩은 순무",
+                  "name": "Rotten Turnip",
                   "description": "Moldy and disgusting."
                }
             }
          },
          "pumpkin_crop": {
-            "display_name": "호박",
+            "display_name": "Pumpkin",
             "description": "Big, round, and fast-growing, but tasty it is not.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 호박",
-                  "description": "맛있어!"
+                  "name": "Ripe pumpkin",
+                  "description": "Delicious!"
                },
                "002": {
-                  "name": "작은 호박",
+                  "name": "Baby pumpkin",
                   "description": "Not edible yet!"
                },
                "001": {
-                  "name": "싹이 튼 호박",
+                  "name": "Pumpkin Sprout",
                   "description": "Not edible yet!"
                },
                "000": {
-                  "name": "호박 모종",
+                  "name": "Pumpkin Seedling",
                   "description": "A unrealized pumpkin."
                },
                "011": {
-                  "name": "썩은 호박",
+                  "name": "Rotten pumpkin",
                   "description": "Moldy and disgusting."
                }
             }
@@ -3920,67 +3920,67 @@
             }
          },
          "turnip_crop": {
-            "display_name": "순무",
+            "display_name": "Turnip",
             "description": "Fast-growing staple crop, but not particularly nutritious nor delicious.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 순무",
-                  "description": "맛있어!"
+                  "name": "Ripe Turnip",
+                  "description": "Delicious!"
                },
                "002": {
-                  "name": "어린 순무",
-                  "description": "작고. 써."
+                  "name": "Baby Turnip",
+                  "description": "Small. Bitter."
                },
                "001": {
-                  "name": "싹이 튼 순무",
+                  "name": "Turnip Sprout",
                   "description": "Not edible yet!"
                },
                "000": {
-                  "name": "순무 모종",
+                  "name": "Turnip Seedling",
                   "description": "A unrealized turnip."
                },
                "011": {
-                  "name": "썩은 순무",
+                  "name": "Rotten Turnip",
                   "description": "Moldy and disgusting."
                }
             }
          },
          "wheat_crop": {
-            "display_name": "밀",
+            "display_name": "Wheat",
             "description": "Amber wave of grain.",
             "growth_stage": {
                "003": {
-                  "name": "잘 익은 밀",
-                  "description": "수확할 준비가 되었어!"
+                  "name": "Ripe wheat",
+                  "description": "Ready for harvest!"
                },
                "002": {
                   "name": "Immature wheat",
                   "description": "Not ready for harvest"
                },
                "001": {
-                  "name": "싹이 튼 밀",
+                  "name": "Wheat Sprout",
                   "description": "Not ready for harvest"
                },
                "000": {
-                  "name": "밀 모종",
+                  "name": "Wheat Seedling",
                   "description": "Not ready for harvest"
                },
                "011": {
-                  "name": "밀 껍질",
+                  "name": "Wheat Husk",
                   "description": "It's dead."
                }
             }
          },
          "oak_tree_crop": {
-            "display_name": "참나무 묘목",
+            "display_name": "Oak Tree Sapling",
             "description": "Out of trees? Get ready to participate in reforestation.",
             "growth_stage": {
                "001": {
-                  "name": "참나무 모종",
+                  "name": "Oak Tree Seedling",
                   "description": "It's just getting started."
                },
                "003": {
-                  "name": "참나무 묘목",
+                  "name": "Oak Tree Sapling",
                   "description": "Ready to be transferred to a bigger plot."
                },
                "000": {
@@ -3988,7 +3988,7 @@
                   "description": "Even a mighty tree has humble beginnings."
                },
                "002": {
-                  "name": "싹이 튼 참나무",
+                  "name": "Oak Tree Sprout",
                   "description": "Reach for the sun, little oakling."
                }
             }
@@ -4356,11 +4356,11 @@
                "description": "Heavenly nutritious."
             },
             "corn_basket": {
-               "display_name": "옥수수가 담긴 바구니",
+               "display_name": "Basket of Corn",
                "description": "Sweet and crunchy."
             },
             "corn_serving": {
-               "display_name": "옥수수대",
+               "display_name": "Corn Cob",
                "description": "Crunch and spray."
             }
          },
@@ -4388,7 +4388,7 @@
          },
          "pumpkin": {
             "pumpkin_basket": {
-               "display_name": "호박이 담긴 바구니",
+               "display_name": "Pumpkin Basket",
                "description": "Ready for eating"
             },
             "pumpkin_serving": {
@@ -4401,7 +4401,7 @@
          },
          "veggie_stew": {
             "veggie_stew": {
-               "display_name": "야채 스튜",
+               "display_name": "Vegetable Stew",
                "description": "Warm and delicious"
             },
             "veggie_stew_serving": {
@@ -4414,12 +4414,12 @@
             "description": "Ready for use"
          },
          "egg": {
-            "display_name": "달걀",
+            "display_name": "An Egg",
             "description": "An eggcellent ingredient for cooking."
          },
          "corn_bread": {
             "corn_bread": {
-               "display_name": "옥수수 빵",
+               "display_name": "Corn Bread",
                "description": "Toasty and golden brown."
             },
             "corn_bread_serving": {
@@ -4427,7 +4427,7 @@
             }
          },
          "poyo_meat": {
-            "display_name": "생 닭고기",
+            "display_name": "Raw Poyo Meat",
             "description": "I hear it takes like poyo."
          },
          "poyo_pot_pie": {
@@ -4442,7 +4442,7 @@
          },
          "omelette": {
             "omelette": {
-               "display_name": "오믈렛",
+               "display_name": "Omelette",
                "description": "Delicious egg wrapped meat and veggies"
             },
             "omelette_serving": {
@@ -4452,7 +4452,7 @@
          },
          "roast_poyo": {
             "roast_poyo": {
-               "display_name": "통닭구이",
+               "display_name": "Roast Poyo",
                "description": "Nice and juicy."
             },
             "roast_poyo_serving": {
@@ -4461,7 +4461,7 @@
          },
          "fried_eggs": {
             "fried_eggs": {
-               "display_name": "달걀 프라이",
+               "display_name": "Fried Eggs",
                "description": "Fried and delicious"
             },
             "fried_eggs_serving": {
@@ -4469,25 +4469,25 @@
             }
          },
          "sheep_feed": {
-            "display_name": "양 사료",
+            "display_name": "Sheep Feed",
             "description": "Give to sheep for a supplement to grazing.",
             "sheep_feed_ground": {
-               "display_name": "양 사료",
+               "display_name": "Sheep Feed",
                "description": "Food for sheep"
             }
          },
          "poyo_feed": {
             "poyo_feed": {
-               "display_name": "닭 사료",
+               "display_name": "Poyo Feed",
                "description": "For feeding poyos."
             },
             "poyo_feed_ground": {
-               "display_name": "닭 사료",
+               "display_name": "Poyo Feed",
                "description": "Poyos love to eat this stuff."
             }
          },
          "rabbit_feed": {
-            "display_name": "토끼 사료",
+            "display_name": "Rabbit Feed",
             "description": "For rabbits",
             "rabbit_feed_ground": {
                "display_name": "Rabbit Feed",
@@ -4525,7 +4525,7 @@
             }
          },
          "corn_meal": {
-            "display_name": "옥수수 가루",
+            "display_name": "Corn Meal",
             "description": "Corn ground into a fine powder"
          },
          "flat_bread": {
@@ -6180,7 +6180,7 @@
             "description": "The cook makes delicious, hearty meals from base vegetables and meats.",
             "requirements": "A level 2 Farmer and a Stoneware Spoon, crafted by the Mason.",
             "workshop": {
-               "name": "석재 가마솥",
+               "name": "Stone Cauldron",
                "long_description": "Humongous, heavy pot, suitable for cooking up a feast at a time!"
             },
             "level_6_data": {
@@ -6223,7 +6223,7 @@
          },
          "cook_workbench": {
             "cook_workbench_ghost": {
-               "display_name": "석재 가마솥",
+               "display_name": "Stone Cauldron",
                "description": "Used by the Cook for delicious recipes."
             }
          },
@@ -6260,50 +6260,50 @@
             },
             "omelette_recipe": {
                "description": "Veggies and meat wrapped in egg.",
-               "recipe_name": "오믈렛",
+               "recipe_name": "Omelette",
                "flavor": "Part of a hearty breakfast"
             },
             "roast_poyo_recipe": {
-               "description": "천천히 구워낸 닭고기",
-               "recipe_name": "통닭구이",
+               "description": "Slow roasted poyo meat",
+               "recipe_name": "Roast Poyo",
                "flavor": "Put 'nother poyo on the barby."
             },
             "fried_eggs_recipe": {
                "description": "Eggs fried to order.",
-               "recipe_name": "달갈 프라이",
+               "recipe_name": "Fried Eggs",
                "flavor": "Do you like yours sunnyside up?"
             },
-            "animal_feed_name": "동물 사료",
+            "animal_feed_name": "Animal Feed",
             "sheep_feed_recipe": {
                "description": "A supplement for a healthy sheep diet",
-               "recipe_name": "양 사료"
+               "recipe_name": "Sheep Feed"
             },
             "poyo_feed_recipe": {
                "description": "For feeding one's poyos",
-               "recipe_name": "닭 사료",
+               "recipe_name": "Poyo Feed",
                "flavor": "Cluck cluck!"
             },
             "rabbit_feed_recipe": {
                "description": "Food for rabbits",
-               "recipe_name": "토끼 사료"
+               "recipe_name": "Rabbit Feed"
             },
             "workbenches_name": "Workbenches",
             "cook_workbench_recipe": {
                "description": "Use to cook nutritions soups and stews.",
-               "recipe_name": "석재 가마솥",
+               "recipe_name": "Stone Cauldron",
                "flavor": "Stone, to keep the food hot for a long time."
             },
             "cook_mill_recipe": {
                "description": "For grinding grains into flour",
-               "recipe_name": "맷돌"
+               "recipe_name": "Stone Mill Grinder"
             },
             "cook_oven_recipe": {
                "description": "Great for roasting",
-               "recipe_name": "석재 오븐"
+               "recipe_name": "Stone Oven"
             },
             "corn_meal_recipe": {
                "description": "Corn ground into a fine powder",
-               "recipe_name": "옥수수 가루"
+               "recipe_name": "Corn Meal"
             },
             "decoration_name": "Decorations",
             "roast_mutton_recipe": {
@@ -6313,13 +6313,13 @@
          },
          "cook_mill": {
             "cook_mill_ghost": {
-               "display_name": "맷돌",
+               "display_name": "Stone Mill Grinder",
                "description": "Used by the cook to grind grains into flour."
             }
          },
          "cook_oven": {
             "cook_oven_ghost": {
-               "display_name": "석재 오븐",
+               "display_name": "Stone Oven",
                "description": "Great for roasting"
             }
          }
