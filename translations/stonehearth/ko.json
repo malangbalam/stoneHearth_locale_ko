@@ -318,7 +318,7 @@
                "wealth": "재산",
                "refined": "세련된",
                "uncategorized": "분류되지않은",
-               "workshops": "작업장",
+               "workshops": "작업대",
                "consumable": "소비재",
                "storage": "저장고",
                "none": "없음"
@@ -383,8 +383,8 @@
                "description": "농장이나 저장고 같은 지역을 지정합니다.",
                "items": {
                   "create_stockpile": {
-                     "display_name": "비축고",
-                     "description": "자원을 저장할 수 있는 저장고의 지역을 지정합니다.",
+                     "display_name": "비축소",
+                     "description": "자원을 저장할 수 있는 비축소의 지역을 지정합니다.",
                      "tip_title": "클릭 후 드래그로 영역을 선택 해 주세요.",
                      "tip_description": "우클릭으로 종료할 수 있습니다"
                   },
@@ -522,11 +522,11 @@
             "tasks_manager": {
                "display_name": "Manage Tasks",
                "description": "Do task stuff.",
-               "remove_stockpile": "비축고 삭제",
+               "remove_stockpile": "비축소 해제",
                "pause_stockpile": "정지",
                "resume_stockpile": "다시 시작",
                "group": {
-                  "stockpiles": "비축고",
+                  "stockpiles": "비축소",
                   "building": "건설",
                   "placement": "아이템 설치",
                   "maintenance": "유지보수",
@@ -753,7 +753,7 @@
                "num_animals": "동물:"
             },
             "stockpile": {
-               "default_stockpile_name": "[str(self.unit_info.custom_name)]번째 비축고",
+               "default_stockpile_name": "[str(self.unit_info.custom_name)]번째 비축소",
                "contents": "물품",
                "filter": "필터",
                "help": "체크박스나 아이콘을 눌러서 저장할 물품의 종류를 선택할 수 있습니다",
@@ -821,7 +821,7 @@
             "craft": "제작!",
             "craft_queue_full": "주문이 꽉참!",
             "craftable_locked": "요구 레벨: [str(level)]",
-            "workshop_requirement_title": "작업장",
+            "workshop_requirement_title": "작업대",
             "workshop_none_required": "요구 조건 없음!",
             "workshop_required": "설치 필요: ",
             "level_requirement_title": "요구 레벨",
@@ -2328,12 +2328,12 @@
             "description": "Remove this ladder."
          },
          "show_workshop": {
-            "display_name": "작업장 열기",
+            "display_name": "작업대 열기",
             "description": "Your crafter uses the workshop to construct useful items for your settlement.",
             "disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
          },
          "show_workshop_from_crafter": {
-            "display_name": "작업장 열기",
+            "display_name": "작업대 열기",
             "description": "Your crafter uses the workshop to construct useful items for your settlement.",
             "disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
          },
