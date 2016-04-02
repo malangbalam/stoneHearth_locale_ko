@@ -856,7 +856,7 @@
                   "village": "마을",
                   "town": "도시",
                   "county": "자치 주",
-                  "kingdom": "왕국"
+                  "kingdom": "왕국",
                   "empire": "제국"
                },
                "morale_descriptor": {
