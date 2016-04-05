@@ -1,7 +1,7 @@
 {
    "info" : {
       "name" : "stoneHearth_locale_ko", 
-      "version" : 150405
+      "version" : 150404
    },
    "default_locale": "ko",
    "mixintos" : {
