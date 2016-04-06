@@ -1326,7 +1326,7 @@
             },
             "trader": {
                "simple_caravan_encounter": {
-                  "message": "안녕하십니까 [str(i18n_data.town_name)]마을에 좋은 제안을 하고 싶습니다. 저에게 [str(i18n_data.your_item)] [str(i18n_data.your_quantity)]개 와 [str(i18n_data.my_quantity)] [str(i18n_data.my_item)]개를 교환하는 건 어떤가요?",
+                  "message": "안녕하십니까? 언제나 [str(i18n_data.town_name)]마을은 언제 봐도 아름답군요! 저희가 이 아름다운 마을에 한가지 제안을 할까 합니다. [str(i18n_data.your_item)]  [str(i18n_data.your_quantity)]개를 [str(i18n_data.my_item)] [str(i18n_data.my_quantity)] 개와 교환하지 않으시겠습니까?",
                   "title": "캐러밴이 접근 중!"
                },
                "starting_food_donation": {
@@ -1348,8 +1348,8 @@
                   }
                },
                "returning_trader_encounter": {
-                  "title": "상인이 접근 중!",
-                  "trade_details": "안녕하십니까 [str(i18n_data.town_name)]마을에 좋은 제안을 하고 싶습니다. 저에게 [str(i18n_data.your_item)] [str(i18n_data.your_quantity)]개 와 [str(i18n_data.my_quantity)] [str(i18n_data.my_item)]개를 교환하는 건 어떤가요?",
+                  "title": "상인이 접근 중",
+                  "trade_details": "Hello [str(i18n_data.town_name)]! I'm just passing through, but I'd be willing to make a trade or two, if you're interested. If you make me [str(i18n_data.want_number)] [str(i18n_data.want_item)], I'll be back in [str(i18n_data.num_days)] days and might be able to get you [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] in exchange. Sound good?",
                   "waiting_title": "The trader will be back in [str(i18n_data.hour_counter)] hours!",
                   "waiting_text": "The trader will be back in [str(i18n_data.hour_counter)] hours to give you [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] if you have [str(i18n_data.want_number)] [str(i18n_data.want_item)] ready for him!",
                   "return_title": "The trader returns!",
